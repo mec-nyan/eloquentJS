@@ -4,6 +4,7 @@ function square(x){
 }
 
 // function expression
-const double = (x) => x * 2;
+const sayHi = function(name){ return "Hi, " + name + "!" };
 
-
+// arrow function
+const double = x => x * 2;
